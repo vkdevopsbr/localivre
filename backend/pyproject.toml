@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "localivre"
+version = "0.1.0"
+description = ""
+authors = ["vkdevopsbr"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

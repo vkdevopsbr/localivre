@@ -1,0 +1,9 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: backend
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres_db:${POSTGRES_PORT}/${POSTGRES_DB}
+    ports:
+      - "8000:8000"
