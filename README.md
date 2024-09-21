@@ -29,11 +29,7 @@ Localivre é um sistema para gerenciamento de bibliotecas, com a capacidade de r
    ```
 
 2. **Configure as variáveis de ambiente**:
-   - As variáveis de ambiente estão definidas no arquivo `.env` na raiz do projeto. Certifique-se de renomear o arquivo .env-example para poder executar a aplicação.
-
-   ```bash
-   mv .env-example .env
-   ```
+   - As variáveis de ambiente estão definidas no arquivo `.env` na raiz do projeto.
 
 3. **Iniciar os serviços**:
 
