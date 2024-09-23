@@ -1,7 +1,3 @@
-Aqui está um modelo de README perfeito para o projeto *Localivre*:
-
----
-
 # Localivre 📚
 
 Localivre é um sistema para gerenciamento de bibliotecas, com a capacidade de realizar operações de cadastro e consulta de livros. Ele é composto por um backend em Python com FastAPI, um frontend em SvelteKit, e integrações com PostgreSQL e Kong Gateway.
